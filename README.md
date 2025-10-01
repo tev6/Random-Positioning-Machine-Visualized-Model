@@ -8,7 +8,8 @@ A simluator to visualized the process of random-positioning machine (RPM).
 ## 📖 Overview
 
 This project provides an interactive 3D simulation of Random Positioning Machines (RPM) used in ground-based microgravity research.  The simulator demonstrates how RPMs achieve functional weightlessness through gravity-vector averaging across two rotational axes.
-![Sample Video](simulation.mp4)
+
+![Sample Video](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
 ### Key Features
 - **Dual-Axis Rotation**: Realistic simulation of outer (X-axis) and inner (Y-axis) rotational frames
