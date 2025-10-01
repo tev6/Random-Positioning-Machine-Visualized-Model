@@ -29,15 +29,17 @@ Random Positioning Machines simulate microgravity by continuously reorienting sa
 ## 🛠️ Installation & Requirements
 
 ### Prerequisites
-- C++ Compiler (GCC, Clang, or MSVC)
+- C++ Compiler (GCC, Clang, or MINGW)
 - OpenGL libraries
 - GLUT (OpenGL Utility Toolkit)
 - GLU (OpenGL Utilities)
 
-### Linux Installation
+#### Linux Compilation
 ```bash
-# Ubuntu/Debian
-sudo apt-get install freeglut3-dev libglu1-mesa-dev
-
-# Compilation
 g++ -o rpm_simulator RPMSim.cpp -lGL -lGLU -lglut -lm
+```
+#### Windows Compilation Libraries
+```bash
+-lopengl32 -lglut32 -lglu32 -lgdi32 -lwinmm
+```
+You can also use freeglut to replace glut32.
