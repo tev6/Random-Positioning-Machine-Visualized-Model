@@ -44,3 +44,6 @@ g++ -o rpm_simulator RPMSim.cpp -lGL -lGLU -lglut -lm
 -lopengl32 -lglut32 -lglu32 -lgdi32 -lwinmm
 ```
 You can also use freeglut to replace glut32.
+
+## 📄 License
+This project is intended for academic and research purposes. Please cite the original academic review when using this simulation in research publications.
