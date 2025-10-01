@@ -1,6 +1,6 @@
-# RPM Microgravity Simulator
+# Random-Positioning Machine Microgravity Visualize Simulator
 
-A comprehensive 3D visualization and simulation of Random Positioning Machines (RPM) for microgravity research, implemented in C++ with OpenGL/GLUT.
+A simluator to visualized the process of random-positioning machine (RPM).
 
 ![RPM Simulation](https://img.shields.io/badge/Simulation-OpenGL%2FGLUT-blue)
 ![Research Grade](https://img.shields.io/badge/Research-Academic%20Grade-green)
